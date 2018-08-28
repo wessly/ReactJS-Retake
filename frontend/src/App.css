@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Montserrat:300');
+
+@font-face {
+  font-family: 'OldC';
+  src: url('/fonts/oldc.TTF');
+}
+
+.ui.grid .ui.vertical.menu .item > .label {
+  position: relative;
+  top: 4px;
+}
+
+.non-relative {
+  position: relative;
+  top: 0px !important;
+}
+
+.ui.attached.stackable.menu {
+  border: 0px !important;
+  background: #333 !important;
+}
+
+.ui.menu > .container, .ui.menu > .grid {
+  border-bottom: 1px solid #363854 !important;
+}
+
+.ui.container > .item {
+  padding: 15px !important;
+  border: 0px !important;
+}
+
+.ui.menu .item::before {
+  width: 0px !important;
+}
+
+.ui.attached.stackable.menu > .ui.container > .item > a {
+  padding-top: 6px;
+  color: white;
+  font-size: 10px !important;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.item > .content > button:first-of-type {
+  display: inline-block;
+  margin-bottom: 5px !important;
+}
+
+.ui.container > .item > a > span {
+  display: inline-block;
+  position: relative;
+  left: 3px;
+  top: 3px;
+}
+
+.ui.container > .item > a > img {
+  position: relative;
+  top: 1px;
+  box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+}
+
+.invitedPlayersItem {
+  margin-bottom: 5px;
+}
+
+.ui.vertical.menu {
+  box-shadow: 0px !important;
+}
+
+.joinGame:hover {
+  cursor: pointer;
+}
+
+.mainLabel {
+  display: block;
+  margin-top: 25px;
+  margin-left: 15px;
+  font-size: 21px;
+}
+
+.mainLabel:first-child {
+  margin-top: 0px;
+}
+
+.subLabel {
+  color: rgb(105, 92, 92);
+  font-weight: 300 !important;
+  font-size: 9px !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase;
+}
+
+.rc-time-picker-input {
+  height: 38px !important;
+  padding-left: 40px !important;
+}
+
+.ui.card, .ui.cards > .card {
+  width: 271px !important;
+}
+
+.ui.three.buttons > button > i, .ui.three.buttons > a > i {
+  margin: 0px !important;
+}
+
+.cyrillic {
+  font-size: 19px !important;
+  font-family: 'OldC' !important;
+  font-weight: 100 !important;
+  text-transform: lowercase !important;
+}
